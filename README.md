@@ -1,7 +1,7 @@
 # demo-bank-api
 Bank-style API built to demonstrate Django and DRF skills
 
-## Example
+## Example Endpoint
 ### `/path/to/endpoint`
 - GET retuns EXAMPLE DATA | **permission-group**
 
