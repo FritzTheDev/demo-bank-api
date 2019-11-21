@@ -18,7 +18,9 @@ from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 urlpatterns = [
+    # Admin Site
     path('admin/', admin.site.urls),
+    # Account App Views
     path('', include('accounts.urls')),
     # JWT Views
     path('/token', TokenObtainPairView),
