@@ -36,4 +36,4 @@ Bank-style API built to demonstrate Django and DRF skills
 
 ### `/accounts/<account_id>/transactions/<transaction_id>/comments/<comment_id>`
 - GET returns a specific comment's details | **owner** OR **admin**
-- DELETE deletes a comment and returns a 204 no content | **owner** or **admin**
+- DELETE deletes a comment and returns a 204 no content | **owner** OR **admin**
